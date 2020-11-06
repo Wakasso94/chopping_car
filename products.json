@@ -1,0 +1,98 @@
+{
+    "status": "success",
+    "items": [{
+            "id": 1,
+            "title": "Chez Wakasso-Business-Center le client est Roi.",
+            "price": 135,
+            "image": "./images/iphone1.jpeg"
+        },
+        {
+            "id": 2,
+            "title": "Chez Wakasso-Business-Center le client est Roi.",
+            "price": 950,
+            "image": "./images/iphone2.jpeg"
+        },
+        {
+            "id": 3,
+            "title": "Chez Wakasso-Business-Center le client est Roi.",
+            "price": 750,
+            "image": "./images/iphone3.jpeg"
+        },
+        {
+            "id": 4,
+            "title": "Chez Wakasso-Business-Center le client est Roi.",
+            "price": 999,
+            "image": "./images/iphone4.jpeg"
+        },
+        {
+            "id": 5,
+            "title": "Chez Wakasso-Business-Center le client est Roi.",
+            "price": 250,
+            "image": "./images/iphone5.jpeg"
+
+        },
+        
+        {
+            "id": 11,
+            "title": "Chez Wakasso-Business-Center le client est Roi.",
+            "price": 650,
+            "image": "./images/montre1.jpg"
+        },
+        {
+            "id": 11,
+            "title": "Chez Wakasso-Business-Center le client est Roi.",
+            "price": 650,
+            "image": "./images/montre2.png"
+        },
+        {
+            "id": 11,
+            "title": "Chez Wakasso-Business-Center le client est Roi.",
+            "price": 650,
+            "image": "./images/montre4.jpg"
+        },
+        {
+            "id": 11,
+            "title": "Chez Wakasso-Business-Center le client est Roi.",
+            "price": 650,
+            "image": "./images/montre5.png"
+        },
+        {
+            "id": 11,
+            "title": "Chez Wakasso-Business-Center le client est Roi.",
+            "price": 650,
+            "image": "./images/montre6.jpg"
+        },
+        {
+            "id": 6,
+            "title": "Chez Wakasso-Business-Center le client est Roi.",
+            "price": 850,
+            "image": "./images/casque2.jpg"
+
+        },
+        {
+            "id": 7,
+            "title": "Chez Wakasso-Business-Center le client est Roi.",
+            "price": 600,
+            "image": "./images/casque3.png"
+        },
+        {
+            "id": 8,
+            "title": "Chez Wakasso-Business-Center le client est Roi.",
+            "price": 350,
+            "image": "./images/casque2.jpg"
+        },
+        {
+            "id": 9,
+            "title": "Chez Wakasso-Business-Center le client est Roi.",
+            "price": 799,
+            "image": "./images/casque4.jpg"
+        },
+        {
+            "id": 10,
+            "title": "Chez Wakasso-Business-Center le client est Roi.",
+            "price": 150,
+            "image": "./images/casque5.jpg"
+        }
+        
+    ]
+}

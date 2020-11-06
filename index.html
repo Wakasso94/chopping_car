@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@400;500;600;700&display=swap" rel="stylesheet" />
+
+  <!-- StyleSheet -->
+  <link rel="stylesheet" href="styles.css" />
+  <title>Shopping Cart Project</title>
+</head>
+
+<body>
+  <!-- Navigation -->
+  <nav class="nav">
+    <div class="nav__center container">
+      <div class="nav__logo">
+        <div><h1>WAKASSO-<span>BUSINESS-</span>CENTER</h1></div>
+      </div>
+
+      <ul class="nav__list">
+        <a href="#" class="login">connectez</a>
+        <div class="cart__icon">
+          <h2>Panier</h2>
+          <span class="item__total">0</span>
+        </div>
+      </ul>
+
+      <div class="hamburger">
+        <svg>
+          <use xlink:href="./images/sprite.svg#icon-menu"></use>
+        </svg>
+      </div>
+    </div>
+  </nav>
+  <!-- Navigation -->
+
+  <!-- Products -->
+  <section class="products">
+    <div class="product__center">
+      <!-- Single Product -->
+       <div class="product">
+        <div class="image__container">
+          <img src="./images/iphone1.jpeg" alt="" />
+        </div>
+        <div class="product__footer">
+          <h1>Chez Wakasso-Business-Center le client est Roi</h1>
+          <div class="rating">
+            <span>
+              <svg>
+                <use xlink:href="./images/sprite.svg#icon-star-full"></use>
+              </svg>
+            </span>
+            <span>
+              <svg>
+                <use xlink:href="./images/sprite.svg#icon-star-full"></use>
+              </svg>
+            </span>
+            <span>
+              <svg>
+                <use xlink:href="./images/sprite.svg#icon-star-full"></use>
+              </svg>
+            </span>
+            <span>
+              <svg>
+                <use xlink:href="./images/sprite.svg#icon-star-full"></use>
+              </svg>
+            </span>
+            <span>
+              <svg>
+                <use xlink:href="./images/sprite.svg#icon-star-empty"></use>
+              </svg>
+            </span>
+          </div>
+          <div class="bottom">
+            <div class="btn__group">
+              <a href="#" class="btn addToCart">Ajoutez au panier</a>
+              <a href="#" class="btn view">Voir+</a>
+            </div>
+            <div class="price">300 000F</div>
+          </div>
+        </div>
+      </div> 
+      <!-- End of Single Product -->
+    </div>
+  </section>
+
+  <section class="cart__overlay">
+    <div class="cart">
+      <span class="close__cart">
+        <svg>
+          <use xlink:href="./images/sprite.svg#icon-cross"></use>
+        </svg>
+      </span>
+      <h1>Votre Panier</h1>
+      <div class="cart__centent">
+        <!-- Cart Item -->
+        <div class="cart__item">
+        </div> 
+      </div>
+
+      <div class="cart__footer">
+        <h3>Total: 0 <span class="cart__total">0</span>F</h3>
+        <button class="clear__cart btn">Videz votre panier</button>
+      </div>
+    </div>
+  </section>
+
+  <script src="app.js"></script>
+</body>
+
+</html>
